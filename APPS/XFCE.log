@@ -1,0 +1,309 @@
+
+
+X.Org X Server 1.19.6
+Release Date: 2017-12-20
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 5.4.0-139-generic armv7l Ubuntu
+Current Operating System: Linux deeplay 4.9.170 #211 SMP PREEMPT Tue Jan 30 14:54:32 CST 2024 aarch64
+Kernel command line: earlyprintk=sunxi-uart,0x05000000 initcall_debug=0 console=ttyS0,115200 loglevel=4 root=/dev/mmcblk0p5 rootwait init=/init partitions=Roms@mmcblk0p1:boot-resource@mmcblk0p2:env@mmcblk0p3:boot@mmcblk0p4:rootfs@mmcblk0p5:UDISK@mmcblk0p6 cma=64M snum=9c00106861c0c6e2412 mac_addr= wifi_mac= bt_mac= selinux=0 specialstr= gpt=1 androidboot.mode=normal androidboot.serialno=9c00106861c0c6e2412 androidboot.hardware=sun50iw9p1 boot_type=1 androidboot.boot_type=1 androidboot.secure_os_exist=0 gpt=1 uboot_message=2018.05(01/30/2024-17:34:49) disp_reserve=1228800,0x7bf227c0 bootreason=unknow lcd_type=old 
+Build Date: 29 March 2023  03:20:08PM
+xorg-server 2:1.19.6-1ubuntu4.15 (For technical support please see http://www.ubuntu.com/support) 
+Current version of pixman: 0.34.0
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Thu Mar 28 14:13:07 2024
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+swapon: /mnt/mmc/swapfile: insecure permissions 0777, 0600 suggested.
+W: [pulseaudio] main.c: This program is not intended to be run as root (unless --system is specified).
+/usr/bin/startxfce4: X server already running on display :0
+/usr/bin/iceauth:  unable to generate an authority file name
+
+(xfce4-session:2603): xfce4-session-WARNING **: 14:13:15.238: Failed to setup the ICE authentication data, session management might not work properly.
+gpg-agent[2616]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[2617]: gpg-agent (GnuPG) 2.2.4 started
+
+(xfce4-session:2603): xfce4-session-WARNING **: 14:13:15.295: gpg-agent returned no PID in the variables
+
+(xfce4-session:2603): xfce4-session-WARNING **: 14:13:15.298: xfsm_manager_load_session: Something wrong with //.cache/sessions/xfce4-session-deeplay:0, Does it exist? Permissions issue?
+Exiting, name server cannot be used: Temporary failure in name resolution (-3)28 Mar 14:13:15 ntpdate[2629]: name server cannot be used: Temporary failure in name resolution (-3)
+
+(xfwm4:2619): Gdk-WARNING **: 14:13:16.659: shmget failed: error 38 (Function not implemented)
+
+(xfce4-session:2603): xfce4-session-WARNING **: 14:13:16.814: ICE connection 0xac349d30 rejected
+xfce4-panel: Failed to connect to session manager: Failed to connect to the session manager: Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed
+
+(xfce4-session:2603): xfce4-session-WARNING **: 14:13:16.815: ICE connection 0xac349d30 rejected
+Failed to connect to session manager: Failed to connect to the session manager: Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed
+
+(xfce4-session:2603): xfce4-session-WARNING **: 14:13:16.819: ICE connection 0xac349d30 rejected
+
+(xfce4-session:2603): xfce4-session-WARNING **: 14:13:16.819: ICE connection 0xac349d30 rejected
+Failed to connect to session manager: Failed to connect to the session manager: Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed
+No protocol specified
+xscreensaver: 14:13:16: Can't open display: :0.0
+xscreensaver: 14:13:16: initial effective uid/gid was root/root (0/0)
+xscreensaver: 14:13:16: running as nobody/nogroup (65534/65534)
+
+xscreensaver: 14:13:16: This is probably because you're logging in as root.  You
+              shouldn't log in as root: you should log in as a normal user,
+              and then `su' as needed.  If you insist on logging in as
+              root, you will have to turn off X's security features before
+              xscreensaver will work.
+
+              Please read the manual and FAQ for more information:
+
+              https://www.jwz.org/xscreensaver/faq.html
+              https://www.jwz.org/xscreensaver/man.html
+
+
+(xfce4-session:2603): xfce4-session-WARNING **: 14:13:16.933: ICE connection 0xac349d30 rejected
+Failure: Module initialization failed
+
+(xfce4-session:2603): xfce4-session-WARNING **: 14:13:16.974: ICE connection 0xac349d30 rejected
+Qt: Session management error: Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed
+No systemtrayicon available
+(uint32 1,)
+
+(polkit-gnome-authentication-agent-1:2636): polkit-gnome-1-WARNING **: 14:13:17.101: Unable to determine the session we are in: No session for pid 2636
+
+(xfsettingsd:2634): xfsettingsd-WARNING **: 14:13:17.442: Unknown mode '640x480 @ 60.0' for output default, aborting.
+
+(xfsettingsd:2634): xfsettingsd-WARNING **: 14:13:17.583: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(nm-applet:2661): Gtk-WARNING **: 14:13:17.820: Can't set a parent on widget which has a parent
+
+(xfce4-panel:2623): Gdk-WARNING **: 14:13:17.822: shmget failed: error 38 (Function not implemented)
+
+(xfwm4:2619): xfwm4-WARNING **: 14:13:17.846: Error opening /dev/dri/card0: No such file or directory
+
+(xfce4-session:2603): xfce4-session-WARNING **: 14:13:17.874: ICE connection 0xac349d30 rejected
+
+(xfwm4:2619): xfwm4-WARNING **: 14:13:17.875: Failed to connect to session manager: Failed to connect to the session manager: Authentication Rejected, reason : None of the authentication protocols specified are supported and host-based authentication failed
+
+(nm-applet:2661): Gdk-CRITICAL **: 14:13:18.126: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+14:13:18.294 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
+
+(wrapper-2.0:2751): Gtk-WARNING **: 14:13:18.580: Negative content height -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+14:13:21.705 WARNING HardwareSensorTracker: Failed to connect to acpid, SW_TABLET_MODE detection disabled. ('/var/run/acpid.socket': [Errno 2] No such file or directory) 
+
+(onboard:2633): Gdk-CRITICAL **: 14:13:22.230: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:32.335: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:32.335: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:13:32.520: Can't set a parent on widget which has a parent
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:32.724: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:32.724: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:13:32.882: Can't set a parent on widget which has a parent
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:33.037: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:33.038: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:13:33.218: Can't set a parent on widget which has a parent
+nm-applet-Message: 14:13:33.226: No keyring secrets found for TheUndergroundNetwork/802-11-wireless-security; asking user.
+Gtk-Message: 14:13:34.104: GtkDialog mapped without a transient parent. This is discouraged.
+
+(xfdesktop:2627): Gdk-WARNING **: 14:13:34.348: shmget failed: error 38 (Function not implemented)
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:34.442: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:34.442: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:13:34.676: Can't set a parent on widget which has a parent
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:34.881: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:34.881: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:13:35.119: Can't set a parent on widget which has a parent
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:38.446: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:38.446: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:13:38.626: Can't set a parent on widget which has a parent
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:40.053: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:40.053: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:13:40.237: Can't set a parent on widget which has a parent
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:40.443: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:40.443: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:13:40.629: Can't set a parent on widget which has a parent
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:40.792: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:40.792: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:13:40.971: Can't set a parent on widget which has a parent
+
+(Thunar:2625): Gdk-WARNING **: 14:13:44.272: shmget failed: error 38 (Function not implemented)
+
+(mousepad:2917): Gtk-WARNING **: 14:13:36.212: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:2917): Gtk-WARNING **: 14:13:36.212: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:2917): Gtk-WARNING **: 14:13:36.212: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:2917): Gtk-WARNING **: 14:13:36.213: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:2917): Gtk-WARNING **: 14:13:36.213: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:53.553: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:53.553: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:13:53.734: Can't set a parent on widget which has a parent
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:53.905: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:13:53.905: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:13:54.096: Can't set a parent on widget which has a parent
+/usr/lib/python3/dist-packages/Onboard/OnboardGtk.py:151: Warning: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+  Gtk.main()
+14:14:39.226 WARNING GlobalKeyListener: Failed to unselect events for device 10: failed to close device
+14:14:39.351 WARNING GlobalKeyListener: Failed to unselect events for device 9: failed to close device
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:14:50.724: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:14:50.724: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:14:50.910: Can't set a parent on widget which has a parent
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:14:51.084: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:14:51.084: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:14:51.289: Can't set a parent on widget which has a parent
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:15:49.570: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:15:49.570: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:15:49.768: Can't set a parent on widget which has a parent
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:15:49.954: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:15:49.954: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:15:50.139: Can't set a parent on widget which has a parent
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:16:29.754: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:16:29.754: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+
+(nm-applet:2661): Gtk-WARNING **: 14:16:29.948: Can't set a parent on widget which has a parent
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:16:30.183: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:16:30.183: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:16:30.395: Can't set a parent on widget which has a parent
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:16:52.650: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:16:52.650: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:16:52.856: Can't set a parent on widget which has a parent
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:16:53.047: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:16:53.047: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:16:53.255: Can't set a parent on widget which has a parent
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:16:53.452: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:16:53.452: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:16:53.671: Can't set a parent on widget which has a parent
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:16:56.861: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:16:56.861: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:16:57.050: Can't set a parent on widget which has a parent
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:16:57.229: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:16:57.229: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:16:57.421: Can't set a parent on widget which has a parent
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:17:02.941: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:17:02.941: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-WARNING **: 14:17:03.138: Can't set a parent on widget which has a parent
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+
+(xfsettingsd:2634): GLib-GObject-WARNING **: 14:17:09.008: g_object_notify: object class 'UpClient' has no property named 'g-name-owner'
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:17:10.248: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:2661): Gtk-CRITICAL **: 14:17:10.248: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+(EE) libinput bug: Event for missing capability CAP_POINTER on device "Deeplay-keys"
+gpg-agent[2617]: SIGTERM received - shutting down ...
+gpg-agent[2617]: gpg-agent (GnuPG) 2.2.4 stopped
+xfwm4: Fatal IO error 4 (Interrupted system call) on X server :0.0.
+xfce4-panel: Fatal IO error 4 (Interrupted system call) on X server :0.0.
+xinit: connection to X server lost
+
+waiting for X server to shut down xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+xfdesktop: Fatal IO error 4 (Interrupted system call) on X server :0.0.
+(II) Server terminated successfully (0). Closing log file.
+
+xinit: unexpected signal 15
