@@ -1,9 +1,9 @@
 # anbernic-rg35xx-XFCE-dekstop
-<h2>this is a reborn project of XFCE desktop for anbernic rg35xx</h2>
+<h5>this is a reborn project of XFCE desktop for anbernic rg35xx</h5>
 
 
 <h1>How to install</h1>
-flash the stockos to minimum 16gb sd card (do not use mod stock os)
+flash the stockos 32bit (32bit version is 1.1.3 on rg32xx sp) to minimum 16gb sd card (do not use mod stock os)
 copy the APPS to ROMS/ROMS
 overwrite the default folder
 insert your sd card to your device
