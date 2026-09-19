@@ -1,5 +1,5 @@
 # anbernic-rg35xx-XFCE-dekstop
-<h1>this is a reborn project of XFCE desktop for anbernic rg35xx</h1>
+<h2>this is a reborn project of XFCE desktop for anbernic rg35xx</h2>
 
 
 <h1>How to install</h1>
